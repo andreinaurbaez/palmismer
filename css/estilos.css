@@ -37,6 +37,15 @@ body .fondoImagen{
    
 }
 
+header nav{
+    background-color: rgba(95, 93, 96, 0.878);
+}
+
+
+.navbar-brand img{
+    border-radius: 50px;
+}
+
 .enlace img{
     width: 100%;
     height: 100px;
