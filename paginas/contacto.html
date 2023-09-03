@@ -19,7 +19,7 @@
   <title> Palmis Merceria</title>
 </head>
 
-<body class="fondoColor">
+<body class="fondoRosa">
   <!--todo el sitio.el cuerpo del sitio.lo visible-->
 
   <header id="principal"> <!--encabezado-->
@@ -28,9 +28,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="../multimedia/logoP.jpg" alt="logo" width="100px">
-      </a>
-
+        <img src="../multimedia/logoP.jpg" alt="logo" width="100px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -53,17 +51,22 @@
           <li class="nav-item">
             <a class="nav-link" href="contacto.html">Contacto</a>
           </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  </header>
+        </ul>  
+        <!--redes sociales-->
+        <div class="redessociales">
+          <a target="_blank" href="https://facebook.com/profile.php?id=100084487043101"><i class="fab fa-facebook"></i></a>
+          <a target="_blank" href="https://instagram.com/palmismerceria?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fab fa-instagram"></i></a>
+          <a target="_blank" href="https://wa.me/message/TW2VJY55WLXMG1"><i class="fab fa-whatsapp"></i></a>
+       </div> 
+     </div>
+   </nav>
+</header>  
 
     <form><!--formulario-->
       <h2> DEJANOS TU MENSAJE</h2>
         <input type="text" name="nombre" placeholder="Nombre y Apellido"> <!--recuadros de texto-->
-        <input type="text" name="email" placeholder="email">
-        <input type="text" name="telefono" placeholder="telefono">
+        <input type="text" name="email" placeholder="e-mail">
+        <input type="text" name="telefono" placeholder="Telefono">
         <textarea name="mensaje" placeholder="escriba su mensaje"></textarea>
         <input type="button" value="ENVIAR" id="boton">
     </form>
@@ -75,21 +78,23 @@
       referrerpolicy="no-referrer-when-downgrade"></iframe>
   </article>
   
-  <!--enlaces-->
-  <footer><!--pie de pagina-->
-    <div class="redes">
-     <p>SIGUENOS Y CONTACTANOS POR NUESTRAS REDES SOCIALES</p>
-    <div class="red-social">
-      <a target="_blank" href="https://www.facebook.com/profile.php?id=100084487043101"class="contactlink"><img
-        src="../multimedia/facebook.png"></a>
-      <a target="_blank" href="https://instagram.com/palmismerceria?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="contactlink"><img
-        src="../multimedia/instagram.png"></a>  
-      <a target="_blank" href="https://wa.me/message/TW2VJY55WLXMG1" class="contactlink"><img
-        src="../multimedia/whatsapp.png"></a>
-     <h5> Esta pagina fue creada por Andreina Urbaez,para el curso de desarrollo web 2023.</h5>
+  <footer class="main-footer"><!--pie de pagina-->
+    <div class="container container__flex">
+      <div class="column column--33">
+        <h3 class="column__title">Contactanos</h3>
+        <p class="column__txt">Calle Artigas,7246. Jose Leon Suarez.</p>
+        <p class="column__txt">telefono: 11 2400 5701</p>
+        <p class="column__txt">palmismerceria@gmail.com</p>
+      </div>
+      <div class="column column--33">
+        <h3 class="column__title">Siguenos por nuestras redes sociales</h3>
+        <a target="_blank" href="https://facebook.com/profile.php?id=100084487043101" i class="fab fa-facebook"> facebook</a></p>
+        <a target="_blank" href="https://instagram.com/palmismerceria?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" i class="fab fa-instagram">instagram</a></p>
+      </div>
+      <p class="footer">Esta pagina fue creada por Andreina Urbaez,para el curso de desarrollo web 2023.</p>
     </div>
-  </div>
-  </footer> 
+     
+</footer>
     
   <!--scrip de js-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
